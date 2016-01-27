@@ -1,4 +1,4 @@
-python := "$(shell { command -v python2.7 || command -v python; } 2>/dev/null)"
+python := "$(shell { command -v python3 || command -v python; } 2>/dev/null)"
 
 # Set the relative path to installed binaries under the project virtualenv.
 # NOTE: Creating a virtualenv on Windows places binaries in the 'Scripts' directory.
